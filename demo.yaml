@@ -1,0 +1,7 @@
+---
+- hosts: lab
+  tasks:
+    - name: Create a File
+      copy:
+        content: "Hello This is a Demo file."
+        dest: /tmp/demo.txt
