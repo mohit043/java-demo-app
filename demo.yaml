@@ -3,5 +3,5 @@
   tasks:
     - name: Create a File
       copy:
-        content: "Hello This is a Demo file with some changes."
+        content: "Hello This is a Demo file with some changes now with a variable {{owner_name}}."
         dest: /tmp/demo.txt
